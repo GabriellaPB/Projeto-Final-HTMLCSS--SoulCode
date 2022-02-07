@@ -1,0 +1,981 @@
+ 
+        
+     *{
+        margin: 0 auto;
+    }
+
+    
+@media screen and (min-width: 200px){
+
+    #ftLogo{
+        background-color:#c3bbbbba;
+        margin: 7% 30% 4%;
+        width: 40%;
+    
+        }
+    
+        #logo{
+            background-color: #54454578;
+        }
+    
+        .imagem{
+            background-image: url(../IMG/fundo1.jpeg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:100%;
+        }
+        
+    
+        #indice{
+            height: 180px;       
+            background-color: #54454578;
+            
+        }
+        nav{
+            display: grid;
+       
+            align-content: space-around;
+            justify-content: center;
+        }
+        .menu {
+            width: 90%;
+            background-color: #131313b0;
+            list-style: none;
+            border: 1px solid #000000;
+            float: left;
+            padding: 1px 1px;
+            font-size: 14px;
+          }
+        
+         .menu li {
+             width: 25%;
+            position: relative; 
+             float: left;
+             text-align: center;
+            /* border-right: 1px solid #b5b98b; */
+        } 
+        .menu li a {
+            color: rgb(250, 249, 249);
+            text-decoration: none;
+            padding: 3px 2px;
+            display: block;
+            font-size: 13px;
+            font-family: 'Syne Tactile';
+          }
+        .menu li a:hover {
+            background: rgba(51, 51, 51, 0.37);
+            color: #fff;
+            
+            text-shadow: 0px 0px 5px #fff;
+        }
+        .menu li ul {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            /* background-color: rgb(25 23 23 / 57%); */
+            display: none;
+            width: 100%;
+        }
+        .menu li:hover ul,
+        .menu li.over ul {
+          display: block;
+          
+        }
+        .menu li ul li {
+            /* border: 1px solid #c0c0c0; */
+            display: block;
+            width: 100%;
+            font-family: 'Syne Tactile';
+            color: #fff;
+            font-size: 18px;
+            text-align: justify;
+            background-color: black;
+            
+        }
+    
+    
+    
+    .div1{
+    
+    width:100%;
+    height: 200px;   
+    }
+    
+    
+    .div2{
+        background: linear-gradient( 
+            27deg
+             , #151515 5px, transparent 5px) 0 5px, linear-gradient( 
+            207deg
+             , #151515 5px, transparent 5px) 10px 0px, linear-gradient( 
+            27deg
+             , #222 5px, transparent 5px) 0px 10px, linear-gradient( 
+            207deg
+             , #222 5px, transparent 5px) 10px 5px, linear-gradient( 
+            90deg
+             , #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+                background-color: #131313;
+                background-size: 20px 20px;
+                color: white;
+                width: 100%;
+                /* height: 76%; */
+                border-top: outset;
+                border-bottom: outset;
+                border-color: #343434;
+                border-width: 10px;
+                font-family: 'Nunito', sans-serif;
+                text-align: center;
+            
+    }
+    
+    h1{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .text{
+        width: 75%;
+        text-align: justify;
+        font-size: 14px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .div3{
+    
+        width:100%;
+        height: 50px; 
+        background-color: #54454578;
+        
+    }
+    
+    
+    .div4{
+        background: linear-gradient(
+    27deg
+    , #151515 5px, transparent 5px) 0 5px, linear-gradient(
+    207deg
+    , #151515 5px, transparent 5px) 10px 0px, linear-gradient(
+    27deg
+    , #222 5px, transparent 5px) 0px 10px, linear-gradient(
+    207deg
+    , #222 5px, transparent 5px) 10px 5px, linear-gradient(
+    90deg
+    , #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+        background-color: #131313;
+        background-size: 20px 20px;
+        color: white;
+        /* width: 100%; */
+        height: 125px;
+        border-top: outset;
+        border-bottom: outset;
+        border-color: #343434;
+        border-width: 15px;
+        
+    }
+    
+    .img{
+        
+    height: 33%;
+    padding: 2px;
+    margin-left: 2%;
+
+        
+    }
+    
+    
+    
+    .grid{
+        display: grid;
+        /* grid-template-rows: repeat(3,1fr); */
+        grid-template-columns: repeat(3,2fr);
+        grid-auto-flow: column;
+        text-align: center;
+        background-color: #131313e0;
+        height: 50%;
+        
+        
+    }
+    
+    .grid > p{
+        margin: 6px auto;
+        height: 20px;
+    }
+    
+    #copy{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 2;
+        margin-left: 60%;
+        color: white;
+        font-size: 10px;
+    }
+    
+    
+    .fa-keyboard{
+        color: #eaebe2;
+        font-size: 20px;
+        
+    }
+    
+    .fa-instagram{
+        color: #eaebe2;
+        font-size: 20px;
+    }
+    
+    .fa-linkedin{
+        color: #eaebe2;
+        font-size: 20px;
+    }
+      
+
+}
+     
+  
+	@media screen and (min-width:300px){
+        
+
+    #ftLogo{
+        background-color:#c3bbbbba;
+        margin: 7% 26% 7%;
+        width: 47%;
+         }
+    
+        #logo{
+            background-color: #54454578;
+        }
+    
+        .imagem{
+            background-image: url(../IMG/fundo1.jpeg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:100%;
+        }
+        
+    
+        #indice{
+            height: 350px;       
+            background-color: #54454578;
+            
+        }
+        nav{
+            display: grid;
+       
+            align-content: space-around;
+            justify-content: center;
+        }
+        .menu {
+            width: 90%;
+            background-color: #131313b0;
+            list-style: none;
+            border: 1px solid #000000;
+            float: left;
+            padding: 4px 5px;
+            font-size: 16px;
+          }
+        
+         .menu li {
+             width: 25%;
+            position: relative; 
+             float: left;
+             text-align: center;
+            /* border-right: 1px solid #b5b98b; */
+        } 
+        .menu li a {
+            color: rgb(250, 249, 249);
+            text-decoration: none;
+            padding: 5px 4px;
+            display: block;
+            font-family: 'Syne Tactile';
+          }
+        .menu li a:hover {
+            background: rgba(51, 51, 51, 0.37);
+            color: #fff;
+            
+            text-shadow: 0px 0px 5px #fff;
+        }
+        .menu li ul {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            /* background-color: rgb(25 23 23 / 57%); */
+            display: none;
+            width: 100%;
+        }
+        .menu li:hover ul,
+        .menu li.over ul {
+          display: block;
+          
+        }
+        .menu li ul li {
+            /* border: 1px solid #c0c0c0; */
+            display: block;
+            width: 100%;
+            font-family: 'Syne Tactile';
+            color: #fff;
+            font-size: 18px;
+            text-align: justify;
+            background-color: black;
+            
+        }
+    
+    
+    
+    .div1{
+    
+    width:100%;
+    height: 200px;   
+    }
+    
+    
+    .div2{
+        background: linear-gradient( 
+            27deg
+             , #151515 5px, transparent 5px) 0 5px, linear-gradient( 
+            207deg
+             , #151515 5px, transparent 5px) 10px 0px, linear-gradient( 
+            27deg
+             , #222 5px, transparent 5px) 0px 10px, linear-gradient( 
+            207deg
+             , #222 5px, transparent 5px) 10px 5px, linear-gradient( 
+            90deg
+             , #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+                background-color: #131313;
+                background-size: 20px 20px;
+                color: white;
+                width: 100%;
+                /* height: 76%; */
+                border-top: outset;
+                border-bottom: outset;
+                border-color: #343434;
+                border-width: 10px;
+                font-family: 'Nunito', sans-serif;
+                text-align: center;
+            
+    }
+    
+    h1{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .text{
+        width: 75%;
+        text-align: justify;
+        font-size: 12px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .div3{
+    
+        width:100%;
+        height: 50px; 
+        background-color: #54454578;
+        
+    }
+    
+    
+    .div4{
+        background: linear-gradient(
+    27deg
+    , #151515 5px, transparent 5px) 0 5px, linear-gradient(
+    207deg
+    , #151515 5px, transparent 5px) 10px 0px, linear-gradient(
+    27deg
+    , #222 5px, transparent 5px) 0px 10px, linear-gradient(
+    207deg
+    , #222 5px, transparent 5px) 10px 5px, linear-gradient(
+    90deg
+    , #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+        background-color: #131313;
+        background-size: 20px 20px;
+        color: white;
+        /* width: 100%; */
+        height: 125px;
+        border-top: outset;
+        border-bottom: outset;
+        border-color: #343434;
+        border-width: 15px;
+        
+    }
+    
+    .img{
+        
+    height: 38%;
+    padding: 3px;
+    margin-left: 2%;
+
+        
+    }
+    
+    
+    
+    .grid{
+        display: grid;
+        /* grid-template-rows: repeat(3,1fr); */
+        grid-template-columns: repeat(3,2fr);
+        grid-auto-flow: column;
+        text-align: center;
+        background-color: #131313e0;
+        height: 50%;
+        
+        
+    }
+    
+    .grid > p{
+        margin: 6px auto;
+        height: 20px;
+    }
+    
+    #copy{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 2;
+        margin-left: 63%;
+        color: white;
+        font-size: 10px;
+    }
+    
+    
+    .fa-keyboard{
+        color: #eaebe2;
+        font-size: 20px;
+        
+    }
+    
+    .fa-instagram{
+        color: #eaebe2;
+        font-size: 20px;
+    }
+    
+    .fa-linkedin{
+        color: #eaebe2;
+        font-size: 20px;
+    }
+      }
+
+      @media screen and (min-width:425px){
+        #ftLogo{
+            background-color:#c3bbbbba;
+            margin: 7% 30% 4%;
+            width: 40%;
+        
+            }
+        
+            #logo{
+                background-color: #54454578;
+            }
+        
+            .imagem{
+                background-image: url(../IMG/fundo1.jpeg);
+                background-attachment: fixed;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width:100%;
+            }
+            
+        
+            #indice{
+                height: 461px;
+                
+                background-color: #54454578;
+                
+            }
+            nav{
+                display: grid;
+           
+                align-content: space-around;
+                justify-content: center;
+            }
+            .menu {
+                width: 68%;
+                background-color: #131313b0;
+                list-style: none;
+                border: 1px solid #000000;
+                float: left;
+                padding: 5px 5px;
+                font-size: 20px;
+              }
+            
+             .menu li {
+                 width: 25%;
+                position: relative; 
+                 float: left;
+                 text-align: center;
+                /* border-right: 1px solid #b5b98b; */
+            } 
+            .menu li a {
+                color: rgb(250, 249, 249);
+                text-decoration: none;
+                padding: 6px 30px;
+                display: block;
+                font-family: 'Syne Tactile';
+                font-size: 15px;
+              }
+            .menu li a:hover {
+                background: rgba(51, 51, 51, 0.37);
+                color: #fff;
+                
+                text-shadow: 0px 0px 5px #fff;
+            }
+            .menu li ul {
+                position: absolute;
+                top: 25px;
+                left: 0;
+                /* background-color: rgb(25 23 23 / 57%); */
+                display: none;
+                width: 100%;
+            }
+            .menu li:hover ul,
+            .menu li.over ul {
+              display: block;
+              
+            }
+            .menu li ul li {
+                /* border: 1px solid #c0c0c0; */
+                display: block;
+                width: 100%;
+                font-family: 'Syne Tactile';
+                color: #fff;
+                font-size: 18px;
+                text-align: justify;
+                background-color: black;
+                
+            }
+        
+        
+        
+        .div1{
+        
+        width:100%;
+        height: 200px;   
+        }
+        
+        
+        .div2{
+                background: linear-gradient(
+                27deg
+                , #151515 5px, transparent 5px) 0 5px, linear-gradient(
+                207deg
+                , #151515 5px, transparent 5px) 10px 0px, linear-gradient(
+                27deg
+                , #222 5px, transparent 5px) 0px 10px, linear-gradient(
+                207deg
+                , #222 5px, transparent 5px) 10px 5px, linear-gradient(
+                90deg
+                , #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+                background-color: #131313;
+                background-size: 20px 20px;
+                color: white;
+                width: 100%;
+                height: 80%;
+                border-top: outset;
+                border-bottom: outset;
+                border-color: #343434;
+                border-width: 15px;
+                font-family: 'Nunito', sans-serif;
+                text-align: center; 
+                
+        }
+        
+        h1{
+                margin-top: 50px;
+                text-align: center;
+        }
+        .text{
+                width: 60%;
+                text-align: justify;
+                font-size: 20px;
+                margin-top: 3%;
+                margin-bottom: 3%;
+        }
+        
+        .div3{
+        
+            width:100%;
+            height: 100px; 
+            background-color: #54454578;
+            
+        }
+        
+        
+        .div4{
+            background: linear-gradient(
+        27deg
+        , #151515 5px, transparent 5px) 0 5px, linear-gradient(
+        207deg
+        , #151515 5px, transparent 5px) 10px 0px, linear-gradient(
+        27deg
+        , #222 5px, transparent 5px) 0px 10px, linear-gradient(
+        207deg
+        , #222 5px, transparent 5px) 10px 5px, linear-gradient(
+        90deg
+        , #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+            background-color: #131313;
+            background-size: 20px 20px;
+            color: white;
+            height: 225px;
+            border-top: outset;
+            border-bottom: outset;
+            border-color: #343434;
+            border-width: 15px;
+            
+        }
+        
+        .img{
+            height: 20%;
+            padding: 5px;
+            margin-left: 5%;
+        }
+        
+        
+        .grid{
+            display: grid;
+            /* grid-template-rows: repeat(3,1fr); */
+            grid-template-columns: repeat(3,2fr);
+            grid-auto-flow: column;
+            text-align: center;
+            background-color: #131313e0;
+            height: 50%;
+            
+            
+        }
+        
+        
+        #copy{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 2;
+            margin-left: 58%;
+            color: white;
+            font-size: 20px;
+            margin-top: 25px;
+        }
+        
+        
+        .fa-keyboard{
+            color: #eaebe2;
+            font-size: 40px;
+            
+        }
+        
+        .fa-instagram{
+            color: #eaebe2;
+            font-size: 40px;
+        }
+        
+        .fa-linkedin{
+            color: #eaebe2;
+            font-size: 40px;
+        }
+      }  
+  
+      @media screen and (min-width:768px){
+        
+        
+        #ftLogo{
+            background-color:#c3bbbbba;
+            margin: 7% 30% 4%;
+            width: 40%;
+        
+            }
+        
+            #logo{
+                background-color: #54454578;
+            }
+        
+            .imagem{
+                background-image: url(../IMG/fundo1.jpeg);
+                background-attachment: fixed;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width:100%;
+            }
+            
+        
+            #indice{
+                height: 657px;
+                
+                background-color: #54454578;
+                
+            }
+            nav{
+                display: grid;
+           
+                align-content: space-around;
+                justify-content: center;
+            }
+            .menu {
+                width: 68%;
+                background-color: #131313b0;
+                list-style: none;
+                border: 1px solid #000000;
+                float: left;
+                padding: 10px 10px;
+                font-size: 50px;
+              }
+            
+             .menu li {
+                 width: 25%;
+                position: relative; 
+                 float: left;
+                 text-align: center;
+                /* border-right: 1px solid #b5b98b; */
+            } 
+            .menu li a {
+                color: rgb(250, 249, 249);
+                text-decoration: none;
+                padding: 1px 5px;
+                display: block;
+                font-family: 'Syne Tactile';
+                font-size: 15px;
+              }
+            .menu li a:hover {
+                background: rgba(51, 51, 51, 0.37);
+                color: #fff;
+                
+                text-shadow: 0px 0px 5px #fff;
+            }
+            .menu li ul {
+                position: absolute;
+                top: 25px;
+                left: 0;
+                /* background-color: rgb(25 23 23 / 57%); */
+                display: none;
+                width: 100%;
+            }
+            .menu li:hover ul,
+            .menu li.over ul {
+              display: block;
+              
+            }
+            .menu li ul li {
+                /* border: 1px solid #c0c0c0; */
+                display: block;
+                width: 100%;
+                font-family: 'Syne Tactile';
+                color: #fff;
+                font-size: 18px;
+                text-align: justify;
+                background-color: black;
+                
+            }
+        
+        
+        
+        .div1{
+        
+        width:100%;
+        height: 200px;   
+        }
+        
+        
+        .div2{
+                background: linear-gradient(
+                27deg
+                , #151515 5px, transparent 5px) 0 5px, linear-gradient(
+                207deg
+                , #151515 5px, transparent 5px) 10px 0px, linear-gradient(
+                27deg
+                , #222 5px, transparent 5px) 0px 10px, linear-gradient(
+                207deg
+                , #222 5px, transparent 5px) 10px 5px, linear-gradient(
+                90deg
+                , #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+                background-color: #131313;
+                background-size: 20px 20px;
+                color: white;
+                width: 100%;
+                height: 80%;
+                border-top: outset;
+                border-bottom: outset;
+                border-color: #343434;
+                border-width: 15px;
+                font-family: 'Nunito', sans-serif;
+                text-align: center; 
+                
+        }
+        
+        h1{
+                margin-top: 50px;
+                text-align: center;
+        }
+        .text{
+                width: 60%;
+                text-align: justify;
+                font-size: 20px;
+                margin-top: 3%;
+                margin-bottom: 3%;
+        }
+        
+        .div3{
+        
+            width:100%;
+            height: 100px; 
+            background-color: #54454578;
+            
+        }
+        
+        
+        .div4{
+            background: linear-gradient(
+        27deg
+        , #151515 5px, transparent 5px) 0 5px, linear-gradient(
+        207deg
+        , #151515 5px, transparent 5px) 10px 0px, linear-gradient(
+        27deg
+        , #222 5px, transparent 5px) 0px 10px, linear-gradient(
+        207deg
+        , #222 5px, transparent 5px) 10px 5px, linear-gradient(
+        90deg
+        , #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+            background-color: #131313;
+            background-size: 20px 20px;
+            color: white;
+            /* width: 100%; */
+            height: 225px;
+            border-top: outset;
+            border-bottom: outset;
+            border-color: #343434;
+            border-width: 15px;
+            
+        }
+        
+        .img{
+            height: 44%;
+            padding: 5px;
+            margin-left: 5%;
+        }
+        
+        
+        .grid{
+            display: grid;
+            /* grid-template-rows: repeat(3,1fr); */
+            grid-template-columns: repeat(3,2fr);
+            grid-auto-flow: column;
+            text-align: center;
+            background-color: #131313e0;
+            height: 50%;
+            
+            
+        }
+        
+        /* footer{
+            height: 200px;
+        } */
+        
+        #copy{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 2;
+            margin-left: 65%;
+            color: white;
+            font-size: 20px;
+            margin-top: 25px;
+        }
+        
+        
+        .fa-keyboard{
+            color: #eaebe2;
+            font-size: 40px;
+            
+        }
+        
+        .fa-instagram{
+            color: #eaebe2;
+            font-size: 40px;
+        }
+        
+        .fa-linkedin{
+            color: #eaebe2;
+            font-size: 40px;
+        }
+      }
+        
+
+
+    @media screen and (min-width:1000px ) {
+        #ftLogo{
+            background-color:#c3bbbbba;
+            margin: 7% 40% 4%;
+            width: 20%;
+        
+            }
+        
+        
+        #indice{
+            height: 700px;
+            
+            background-color: #54454578;
+            
+        }
+        nav{
+            display: grid;
+       
+            align-content: space-around;
+            justify-content: center;
+        }
+        .menu {
+            width: 68%;
+            background-color: #131313b0;
+            list-style: none;
+            border: 1px solid #000000;
+            float: left;
+            padding: 10px 10px;
+            font-size: 50px;
+          }
+        
+         .menu li {
+             width: 25%;
+            position: relative; 
+             float: left;
+             text-align: center;
+           
+        } 
+        .menu li a {
+            color: rgb(250, 249, 249);
+            text-decoration: none;
+            padding: 1px 5px;
+            display: block;
+            font-family: 'Syne Tactile';
+            font-size: 20px;
+          }
+        
+        h1 {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .img {
+            height: 54%;
+            padding: 5px;
+            margin-left: 6%;
+            margin-top: 24px;
+        }
+
+        .div4 {
+            background: linear-gradient( 
+        27deg
+         , #151515 5px, transparent 5px) 0 5px, linear-gradient( 
+        207deg
+         , #151515 5px, transparent 5px) 10px 0px, linear-gradient( 
+        27deg
+         , #222 5px, transparent 5px) 0px 10px, linear-gradient( 
+        207deg
+         , #222 5px, transparent 5px) 10px 5px, linear-gradient( 
+        90deg
+         , #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+            background-color: #131313;
+            background-size: 20px 20px;
+            color: white;
+            height: 280px;
+            border-top: outset;
+            border-bottom: outset;
+            border-color: #343434;
+            border-width: 15px;
+        }
+        
+    }  
+     
